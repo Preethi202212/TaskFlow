@@ -102,11 +102,8 @@ The two required non-trivial queries live in `backend/queries.py`:
 
 ## Time spent
 
-Roughly [FILL IN — e.g. "5-6 hours across backend, frontend, and tests"].
+Roughly 5-6 hours across backend, frontend, and tests.
 
 ## Something I found interesting
 
-[FILL IN — one line about anything that caught your attention while building
-this, e.g. why `LEFT JOIN` was needed instead of a plain `JOIN` to make empty
-columns still show up in the count query, or something about SQLite foreign
-key enforcement.]
+Learned why a LEFT JOIN (not a plain JOIN) was needed for the task-count-per-column query — a plain JOIN would have silently dropped empty columns from the result.
